@@ -14,7 +14,7 @@ def restart_program():
         curdir = os.getcwd()
 os.system("pkg install toilet")        
 os.system("clear")
-os.system("toilet -f smblock --filter border:metal 'Hacking')
+os.system("toilet -f smblock --filter border:metal 'Hacking'")
 
 print ("[1]> Brute Force              ")
 print ("[2]> DDos Attack              ")
@@ -29,7 +29,7 @@ if A == "1" or A == "01":
 
 elif A == "2" or A == "02":
     os.system("clear")
-    os.system("toilet -f smblock --filter border:metal 'DDOS Attack')
+    os.system("toilet -f smblock --filter border:metal 'DDOS Attack'")
     ip = raw_input("IP Address : ")
     port = raw_input("Port       : ")
     packet =raw_input("Packet     : ")
@@ -48,6 +48,6 @@ elif A == "0" or A == "00":
     sys.exit()
     
 else:
-     print "\nERROR: Wrong Input"
+     print ("\nERROR: Wrong Input")
      timeout(3)
      restart_program()
