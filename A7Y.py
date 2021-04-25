@@ -6,17 +6,16 @@ def restart_program():
         curdir = os.getcwd()
 os.system("clear")
 os.system("figlet AL-AlamySploit")
-print "Create By : AL-AlamySploit"
-print "YouTube   : https://www.youtube.com/c/ALAlamyTube"
-print "github    : https://github.com/AL-AlamySploit"
-print "Facebook  : https://www.facebook.com/ALAlamy.Tube"
-print "Website   : https://al-alamy-tube.blogspot.com"
-print "Twitter   : https://twitter.com/ALAlamy67"
-print
-print "           [1]> Brute Force              "
-print "           [2]> DDos Attack              "
-print "           [3]> NMap PortScanner         "
-print "           [4]> Install Tools Hacking    "
+print ("Create By : AL-AlamySploit"
+print ("YouTube   : https://www.youtube.com/c/ALAlamyTube")
+print ("github    : https://github.com/AL-AlamySploit")
+print ("Facebook  : https://www.facebook.com/ALAlamy.Tube")
+print ("Website   : https://al-alamy-tube.blogspot.com")
+print ("Twitter   : https://twitter.com/ALAlamy67")
+print ("           [1]> Brute Force              ")
+print ("           [2]> DDos Attack              ")
+print ("           [3]> NMap PortScanner         ")
+print ("           [4]> Install Tools Hacking    ")
 print 
 print " [0]> Exit "
 print
